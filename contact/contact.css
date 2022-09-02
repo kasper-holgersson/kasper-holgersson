@@ -19,6 +19,12 @@
     font-size: 30px;
 }
 
+.text {
+    text-align: center;
+    font-family: "Arial";
+    font-size: 75px;
+}
+
 .footer {
     display: flex;
     position: fixed;
@@ -101,5 +107,35 @@ a:visited {
     .flex-container > div {
         padding: 10px;
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .text {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .text {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .text {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .text {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .text {
+        font-size: 20px;
     }
 }
