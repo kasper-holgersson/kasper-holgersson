@@ -6,6 +6,7 @@
 
 .flex-container {
     display: flex;
+    justify-content: center;
     background-color: #092e4d;
     width: 100%;
 }
@@ -16,6 +17,68 @@
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    background-color: #092e4d;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.fa {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-twitch {
+    background: #6441A4;
+    color: white;
+}
+
+.fa-twitter:visited {
+    color: white;
+}
+
+.fa-twitter:link {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-youtube:visited {
+    color: white;
+}
+
+.fa-youtube:link {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-twitch:visited {
+    color: white;
+}
+
+.fa-twitch:link {
+    text-decoration: none;
+    color: white;
 }
 
 a:link {
