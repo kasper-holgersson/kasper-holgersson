@@ -39,6 +39,7 @@
 .footer {
     display: flex;
     position: fixed;
+    justify-content: center;
     background-color: #092e4d;
     left: 0;
     bottom: 0;
@@ -74,8 +75,17 @@
     color: white;
 }
 
+.fa-twitter:link {
+    text-decoration: none;
+    color: white;
+}
 
 .fa-youtube:visited {
+    color: white;
+}
+
+.fa-youtube:link {
+    text-decoration: none;
     color: white;
 }
 
@@ -83,6 +93,10 @@
     color: white;
 }
 
+.fa-twitch:link {
+    text-decoration: none;
+    color: white;
+}
 
 a:link {
     text-decoration: none;
