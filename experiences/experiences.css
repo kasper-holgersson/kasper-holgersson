@@ -20,7 +20,9 @@
 }
 
 .text {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: left;
     font-family: "Arial";
     font-size: 70px;
 }
