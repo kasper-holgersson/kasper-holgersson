@@ -19,6 +19,12 @@
     font-size: 30px;
 }
 
+.text {
+    text-align: center;
+    font-family: "Arial";
+    font-size: 70px;
+}
+
 .footer {
     display: flex;
     position: fixed;
@@ -100,6 +106,42 @@ a:visited {
 @media screen and (max-width: 385px) {
     .flex-container > div {
         padding: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1430px) {
+    .text {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1235px) {
+    .text {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1035px) {
+    .text {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .text {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .text {
         font-size: 15px;
     }
 }
