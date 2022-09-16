@@ -1,0 +1,8 @@
+.navbar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    margin-left: 100px;
+}

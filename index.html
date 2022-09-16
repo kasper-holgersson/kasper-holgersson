@@ -4,28 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/test.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="/assets/styles/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 580px)" href="/assets/styles/phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" type="image/x-icon" href="briefcase.png">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <title>Document</title>
 </head>
 <body>
-    <div class="flex-container">
-        <div><a href="">Home</a></div>
-        <div><a href="experiences/experiences.html">Experiences</a></div>
-        <div><a href="contact/contact.html">Contact</a></div>
-    </div>
-    <div class="image-container">
-        <div class="text">
-            Hello my name is <br>
-            Kasper Holgersson <br>
-            Welcome to my Portfolio <br>
-        </div> 
-    </div>
-    <div class="footer">
-        <a href="https://twitter.com/reapex14" target="_blank" class="fa fa-twitter" alt="twitter"></a>
-        <a href="https://www.youtube.com/channel/UCbnUO8uKN5YHMZWGwto5b_Q" target="_blank" class="fa fa-youtube" alt="youtube"></a>
-        <a href="https://twitch.tv/reapex_1" target="_blank" class="fa fa-twitch" alt="twitch"></a>
-    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <div class="education">
+                <h1 class="headings">I am <br> Kasper Holgersson</h1>
+                <a href="mailto:holgerssonkasper@gmail.com">
+                    <button class="btn">
+                        Contact me!
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">About me</h1>
+        <div id="page">
+            <div id="intro">
+                <h2>Kasper Holgersson</h2>
+                <p>I am a student at NTI Gymnasiet in Uppsala where I have studied a high school technical program and now I am <br>
+                   taking a fourth year where im studying to be a high school software engineer. During my free time I play video games <br>
+                   and edit youtube videos using Premier Pro. I tend to pick up things quickly whether that's a programming language or <br> 
+                   learning edit youtube videos. I work fast but also efficient and I am creative with lots of ideas floating in my head <br>
+                   all the time.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">Portfolio</h1>
+        <div id="page">
+            <div class="gallery">
+                <iframe 
+                src="https://www.youtube.com/embed/kkwtsrzcEyc">
+                </iframe>
+                <iframe
+                src="https://www.youtube.com/embed/3pW4qKlwrHs">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">Services</h1>
+        <div id="page">
+            <div class="row">
+                <div class="box">
+                    <h1 class="headings">Website Design</h1>
+                    <p>I know much about website desgign having studied it in school and also during my freetime.
+                         But there is always more to learn! I have also experience in automated tests for websites.</p>
+                </div>
+                <div class="box">
+                    <h1 class="headings">Editing</h1>
+                    <p>I have edited youtube videos for years, mostly as a hobby. I am self learned in editing where
+                        I have only edited in my freetime and learned much from it. I am also experienced in the youtube
+                        space, where i have created thumbnails and come up with creative video titles.</p>
+                </div>
+                <div class="box">
+                    <h1 class="headings">Casting</h1>
+                    <p>I am currently trying to pursue a career as an esports caster. Where i work as a freelance CSGO caster
+                        I have casted for about a year now with the biggest event i have casted is IEM RIO RMR Qualifiers 1-4.
+                        Currently i have over 4000 hours in CSGO and have been playing the game since 2016 and keeping up with
+                        the esports since then.</p>
+                </div>
+                <div class="box">
+                    <h1 class="headings">Programming</h1>
+                    <p>I have been programming for a couple of years at this point. The programming languages i know are
+                        CSS, HTML, JavaScript and Python. I am more experienced in HTML and CSS than JavaScript and Python.
+                        I am both self taught and have learned from school.
+                    </p>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Contact me</h3>
+            <ul id="contact">
+                <li><a href="mailto:holgerssonkasper@gmail.com">holgerssonkasper@gmail.com</a></li>
+                <li><a href="tel:+46700651809">070-065 18 09</a></li>
+            </ul>
+            <ul id="socials">
+                <li><a href="https://twitter.com/reapex14"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCbnUO8uKN5YHMZWGwto5b_Q"><i class="fa fa-youtube-play"></i></a></li>
+                <li><a href="https://twitch.tv/reapex_1"><i class="fa fa-twitch"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/kasper-holgersson-445880250/"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
