@@ -200,6 +200,20 @@ p {
     box-shadow: 0 0 20px #000040;
 }
 
+#work-experiences {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    scroll-margin: 50px 0 0 50px;
+}
+
+#page-work {
+    background-color: #111111;
+    color: white;
+    height: 200px;
+    width: 100%;
+}
+
 footer {
     background-color: black;
     width: 100%;
@@ -314,7 +328,7 @@ footer {
     }
 
     .navbar ul li {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 }
 
