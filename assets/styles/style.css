@@ -56,7 +56,7 @@
     top: 0;
     right: 0;
     background: url('/assets/images/background.jpg') no-repeat center/cover;
-    height: 900px;
+    height: 950px;
     width: 100%;
     z-index: -1;
     filter: brightness(85%);
@@ -70,10 +70,19 @@
     position: absolute;
 }
 
+.headings-intro {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+
 .headings {
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     text-align: center;
+    background-color: #222222;
+    color: white;
     margin: 40px 0px;
 }
 
@@ -103,8 +112,8 @@ p {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    margin-bottom: 50px;
     scroll-margin: 50px 0 0 50px;
+    background-color: #222222;
 }
 
 #page {
@@ -135,14 +144,12 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-#porfolio {
+#portfolio {
     display: flex;
     flex-direction: column;
-    color: white;
-    align-items: center;
     box-sizing: border-box;
-    padding: 20px;
     scroll-margin: 50px 0 0 50px;
+    background-color: #222222;
 }
 
 .gallery {
@@ -168,6 +175,7 @@ p {
 #services {
     display: flex;
     flex-direction: column;
+    background-color: #222222;
     scroll-margin: 50px 0 0 50px;
 }
 
@@ -204,6 +212,7 @@ p {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    background-color: #222222;
 }
 
 #page-work {
@@ -303,6 +312,10 @@ footer {
     }
 
     .headings {
+        font-size: 2.5rem;
+    }
+
+    .headings-intro {
         font-size: 2.5rem;
     }
 }
