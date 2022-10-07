@@ -114,6 +114,13 @@ p {
     width: 100%;
 }
 
+#page-about {
+    background-color: #111111;
+    color: white;
+    height: 300px;
+    width: 100%;
+}
+
 #intro {
     display: flex;
     flex-direction: column;
@@ -145,10 +152,16 @@ p {
     box-sizing: border-box;
 }
 
+.gallery img {
+    width: 550px;
+    height: 300px;
+    margin-top: 80px;
+}
+
 .gallery iframe {
     margin-top: 80px;
-    width: 750px;
-    height: 400px;
+    width: 550px;
+    height: 300px;
     border: none;
 }
 
@@ -281,10 +294,17 @@ footer {
     }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1100px) {
     .gallery iframe {
-        width: 500px;
-        height: 300px;
+        width: 350px;
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    .gallery img {
+        width: 350px;
+        height: 200px;
+        margin-top: 10px;
     }
 }
 
