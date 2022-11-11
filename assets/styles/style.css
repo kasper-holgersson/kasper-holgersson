@@ -297,6 +297,20 @@ footer {
     color: #c0c0c0;
 }
 
+@media screen and (max-width: 1650px) {
+    .gallery iframe {
+        width: 400px;
+        height: 250px;
+        margin-top: 10px;
+    }
+
+    .gallery img {
+        width: 400px;
+        height: 250px;
+        margin-top: 10px;
+    }
+}
+
 @media screen and (max-width: 1560px) {
     .box {
         width: 250px;
@@ -317,20 +331,6 @@ footer {
 
     .headings-intro {
         font-size: 2.5rem;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .gallery iframe {
-        width: 350px;
-        height: 200px;
-        margin-top: 10px;
-    }
-
-    .gallery img {
-        width: 350px;
-        height: 200px;
-        margin-top: 5px;
     }
 }
 
