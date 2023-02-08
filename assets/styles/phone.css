@@ -10,3 +10,17 @@
     width: 230px;
     height: 200px;
 }
+
+.box {
+    width: 300px;
+    margin: 40px;
+}
+
+.box-list {
+    width: 300px;
+    margin: 40px;
+}
+
+.headings-intro {
+    width: 240px;
+}

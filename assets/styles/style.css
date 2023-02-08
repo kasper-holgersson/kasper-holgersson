@@ -89,7 +89,7 @@
     text-align: center;
     background-color: #111111;
     color: white;
-    margin: 40px 0px;
+    margin: 40px 0px 0px 0px;
 }
 
 .headings-white {
@@ -98,7 +98,7 @@
     text-align: center;
     background-color: #ffffff;
     color: black;
-    margin: 40px 0px;
+    margin: 40px 0px 0px 0px;
 }
 
 .headings-light-grey {
@@ -107,7 +107,7 @@
     text-align: center;
     background-color: #e6e6e6;
     color: black;
-    margin: 40px 0px;
+    margin: 40px 0px 0px 0px;
 }
 
 p {
@@ -354,20 +354,6 @@ footer {
 }
 
 @media screen and (max-width: 1560px) {
-    .box {
-        width: 250px;
-        height: 350px;
-    }
-
-    .box-list {
-        width: 250px;
-        height: 350px;
-    }
-
-    p {
-        font-size: 0.8rem;
-    }
-
     .headings {
         font-size: 2.5rem;
     }
@@ -380,6 +366,7 @@ footer {
 @media screen and (max-width: 480px) {
     .navbar ul {
         flex-direction: column;
+        text-align: center;
         margin: 5px;
     }
 
