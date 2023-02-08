@@ -77,13 +77,13 @@
     margin: 40px 0px;
 }
 
-.headings-black {
+.headings-dark-grey {
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     text-align: center;
-    background-color: #000000;
+    background-color: #111111;
     color: white;
-    margin: 10px 0px;
+    margin: 40px 0px;
 }
 
 .headings-white {
@@ -92,7 +92,16 @@
     text-align: center;
     background-color: #ffffff;
     color: black;
-    margin: 10px 0px;
+    margin: 40px 0px;
+}
+
+.headings-light-grey {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #e6e6e6;
+    color: black;
+    margin: 40px 0px;
 }
 
 p {
@@ -122,41 +131,36 @@ p {
     flex-direction: column;
     box-sizing: border-box;
     scroll-margin: 50px 0 0 50px;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 #page {
-    background-color: #000000;
+    background-color: #111111;
     color: white;
     padding: 25px 0;
     width: 100%;
 }
 
 #page-portfolio {
-    background-color: #ffffff;
+    background-color: #e6e6e6;
     color: rgb(0, 0, 0);
     padding: 25px 0;
     width: 100%;
 }
 
 #page-about {
-    background-color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    left: 0;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 25px 0;
     width: 100%;
 }
 
 #intro {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
     text-align: left;
+    align-items: center;
     padding: 10px;
 }
 
@@ -165,12 +169,18 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+#intro img {
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+}
+
 #portfolio {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     scroll-margin: 50px 0 0 50px;
-    background-color: #ffffff;
+    background-color: #e6e6e6;
 }
 
 .gallery {
@@ -186,6 +196,11 @@ p {
     margin-top: 80px;
 }
 
+.gallery p {
+    text-align: center;
+    margin-top: 10px;
+}
+
 .gallery iframe {
     margin-top: 80px;
     width: 550px;
@@ -196,7 +211,7 @@ p {
 #services {
     display: flex;
     flex-direction: column;
-    background-color: #000000;
+    background-color: #111111;
     scroll-margin: 50px 0 0 50px;
 }
 
@@ -218,28 +233,25 @@ p {
     text-align: justify;
     padding: 20px;
     border-radius: 15px;
-    background: linear-gradient(to top, #000040 50%, #111111 50%);
+    background: #111111;
     background-size: 100% 200%;
     transition: all 0.8s;
 }
 
-#work-experiences {
+.box-list {
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
-    background-color: #ffffff;
-}
-
-#page-work {
-    background-color: #fffefe;
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
+    width: 350px;
+    height: 450px;
+    border: 3px solid white;
+    margin: 20px;
     align-items: center;
-    top: 0;
-    left: 0;
-    padding: 25px 0;
-    width: 100%;
+    text-align: left;
+    padding: 20px;
+    border-radius: 15px;
+    background: #111111;
+    background-size: 100% 200%;
+    transition: all 0.8s;
 }
 
 footer {
@@ -263,6 +275,7 @@ footer {
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
+    margin-top: 50px;
 }
 
 .footer-content p {
@@ -337,6 +350,11 @@ footer {
         height: 350px;
     }
 
+    .box-list {
+        width: 250px;
+        height: 350px;
+    }
+
     .btn {
         margin-left: 100px;
     }
@@ -357,6 +375,11 @@ footer {
 @media screen and (max-width: 680px) {
     p {
         font-size: 0.6rem;
+    }
+
+    #intro img {
+        width: 180px;
+        height: 150px;
     }
 
     .navbar ul li {
