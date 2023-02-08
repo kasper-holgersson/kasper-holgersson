@@ -2,44 +2,15 @@
     height: 820px;
 }
 
-.headings-white {
-    font-size: 1.5rem;
-}
-
-.headings-light-grey {
-    font-size: 1.5rem;
-}
-
-.headings-dark-grey {
-    font-size: 1.5rem;
-}
-
-.headings-intro {
-    font-size: 1.5rem;
-}
-
 .btn {
     margin-left: 30px;
 }
 
-.box {
-    width: 150px;
-    height: 250px;
+#intro p {
+    width: 200px;
 }
 
-.box-list {
-    width: 150px;
-    height: 250px;
-}
-
-p {
-    font-size: 0.45rem;
-}
-
-.navbar ul li {
-    font-size: 0.5rem;
-}
-
-#contact a {
-    font-size: 0.8rem;
+#intro img {
+    width: 230px;
+    height: 200px;
 }

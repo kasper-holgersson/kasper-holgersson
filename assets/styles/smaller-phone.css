@@ -1,14 +1,9 @@
-.gallery iframe {
-    width: 200px;
-    height: 100px;
-}
-
 .gallery img {
     width: 200px;
     height: 100px;
 }
 
-#intro img {
-    width: 110px;
-    height: 100px;
+.gallery p {
+    width: 200px;
 }
+
