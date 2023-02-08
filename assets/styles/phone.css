@@ -2,6 +2,10 @@
     height: 820px;
 }
 
+p {
+    font-size: 1.3rem;
+}
+
 #intro p {
     width: 200px;
 }
