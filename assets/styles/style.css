@@ -235,12 +235,11 @@ p {
     display: flex;
     flex-direction: column;
     width: 350px;
-    height: 450px;
     border: 3px solid white;
     margin: 20px;
     align-items: center;
-    text-align: left;
-    padding: 20px;
+    text-align: justify;
+    padding: 30px;
     border-radius: 15px;
     background: #111111;
     background-size: 100% 200%;
@@ -256,12 +255,13 @@ p {
     margin: 20px;
     align-items: center;
     text-align: left;
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
     background: #111111;
     background-size: 100% 200%;
     transition: all 0.8s;
 }
+
 
 footer {
     background-color: black;
@@ -340,12 +340,6 @@ footer {
 }
 
 @media screen and (max-width: 1650px) {
-    .gallery iframe {
-        width: 400px;
-        height: 250px;
-        margin-top: 10px;
-    }
-
     .gallery img {
         width: 400px;
         height: 250px;
