@@ -44,7 +44,7 @@
 #home {
     display: flex;
     flex-direction: column;
-    height: 840px;
+    height: 700px;
     justify-content: center;
     align-items: center;
     color: white;
@@ -181,7 +181,7 @@ p {
 }
 
 #intro p {
-    width: 500px;
+    width: 30vw;
 }
 
 #portfolio {
@@ -238,7 +238,7 @@ p {
     border: 3px solid white;
     margin: 20px;
     align-items: center;
-    text-align: justify;
+    text-align: left;
     padding: 30px;
     border-radius: 15px;
     background: #111111;
@@ -366,5 +366,17 @@ footer {
 
     .navbar ul li {
         margin: 5px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .box {
+        padding: 10px;
+        width: 250px;
+    }
+
+    .box-list {
+        padding: 10px;
+        width: 250px;
     }
 }

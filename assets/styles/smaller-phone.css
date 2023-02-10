@@ -1,8 +1,18 @@
 .gallery img {
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 130px;
 }
 
 .gallery p {
-    width: 200px;
+    width: 250px;
+}
+
+.box {
+    width: 300px;
+    margin: 40px;
+}
+
+.box-list {
+    width: 300px;
+    margin: 40px;
 }

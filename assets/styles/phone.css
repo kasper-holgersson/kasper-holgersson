@@ -1,7 +1,3 @@
-#home {
-    height: 820px;
-}
-
 p {
     font-size: 1.4rem;
 }
@@ -13,7 +9,8 @@ p {
 }
 
 #intro p {
-    width: 200px;
+    width: 90vw;
+    text-align: left;
 }
 
 #intro img {
@@ -21,16 +18,10 @@ p {
     height: 200px;
 }
 
-.box {
-    width: 300px;
-    margin: 40px;
-}
-
-.box-list {
-    width: 300px;
-    margin: 40px;
-}
-
 .headings-intro {
     width: 240px;
+}
+
+.gallery img {
+    margin-top: 60px;
 }
