@@ -250,7 +250,6 @@ p {
     display: flex;
     flex-direction: column;
     width: 350px;
-    height: 450px;
     border: 3px solid white;
     margin: 20px;
     align-items: center;
